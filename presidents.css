@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+}
+.menu{
+    display: flex;flex-direction: row;width: 98vw;height:40px;background-color: black;
+    top: 0%;margin: 0%;position: fixed;left: 0%;
+}
+.menuitems{
+    height: 40px;width: fit-content;top: 0%;align-items: center;
+    padding-left:60px;padding-right:60px;line-height: 45px;text-align: center;transition:1s;
+}
+a{text-decoration: none;color: palegreen;font-size: larger;font-weight: 600;transition: 1s;}
+a:hover{color:plum;}
+#pres_list{
+    padding-right: auto;
+
+}
+i{color: white;font-size: large;line-height: 30px;}
+.body{
+    display: flex;flex-direction: column;align-items: center;
+}
+.section{
+    width: 96vw; height:70vh;
+}
+#intro{display: flex;flex-direction: row;margin-left:50px ;justify-content: end;}
+#name{color:rgb(157, 237, 237);font-size: 65px;padding-top: 120px;text-align: center;text-transform: capitalize;transition: 2s;}
+#name:hover{transform: scale(1.2);}
+#small_int{color:blueviolet;font-size:25px;padding-top: 40px;text-align: center;transition: 1s;
+    transition-delay: 0.2s;}
+#small_int:hover{color:rgb(225, 182, 247);}
+
+#p1_image{float: right;height:500px;width:400px;padding:60px;margin-right: 0%;transition: 2s;border-radius: 100px;}
+#p1_image:hover{transform: scale(1.1);}
+.drop{color:black;visibility: hidden;background-color: rgb(215, 215, 215);
+    border-bottom: 0.5px black solid;box-sizing: border-box;height:35px;
+    padding-left: 10px;padding-right: 10px;border-radius: 2px;}
+.drop a{color:black;background-color: rgb(215, 215, 215);
+    border-bottom: 0.5px black solid;box-sizing: border-box;height:35px;
+    padding-left: 10px;padding-right: 10px;border-radius: 2px;}
+#pres_list:hover .drop{visibility: visible;}
+.drop:hover{
+    background-color: darkgrey;
+}
+#life{
+    margin-top:100px ;color:white;font-size: xx-large;text-align: center;
+}
+#birth{
+    padding: 80px 0px 20px 40px;transition: 1s;
+}
+#birth:hover{color:red;}
+#death{
+    padding: 20px 0px 20px 40px;transition: 1s;
+}
+#death:hover{color:yellow;}
+#doa{
+    padding: 20px 0px 20px 40px;transition: 1s;
+}
+#doa:hover{color:green;}
+#polpar{
+    padding: 20px 0px 200px 40px;transition: 1s;
+}
+#polpar:hover{color:blue;}
+#fam_Q{
+    margin-top: 200px;background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;text-align: center;line-height: 10vh;
+}
+#journey{
+    color:rgb(255, 195, 125);padding: 10%;font-size: 30px;margin-bottom: 100px;
+}
+#book img{
+    height:300px;width:240px;
+}
+#book{
+    margin-top: 190px;display: flex;justify-content: space-evenly;flex-direction: row;
+}
+.quotation{
+    text-align: center;
+    font-size: 100px;
+    color: blue;
+}
+#fam_Q i {
+    font-size: xx-large;
+    margin: auto;
+    color: rgb(12, 103, 20);
+}
+h4{
+    color: orangered;
+   font-size: xx-large;
+   transition: 2s;
+
+}
+#fam_Q:hover h4{color: blueviolet;text-transform: scale(1.1);}
