@@ -10,13 +10,30 @@
             h1{
                 text-align: center;
                 font-size: 100px;
-                padding-top: 200px;
+                padding-top: 50px;
             }
             a{text-decoration: none;color: aliceblue;transition: 1s;transition-timing-function:ease-in-out;}
-            a:hover{color: rgb(246, 255, 181);transform: scale(1.2);}
+            a:hover{color: rgb(218, 218, 218);transform: scale(1.2);}
+            #orange{background-color: orange;height: 150px;width: 2px;animation: fadeIn 8s;}
+            #green{background-color: green;height: 150px;width: 2px;float: right;animation: fadeIn 8s;}
+            @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+  }
+            
         </style>
+        <script>var a=0;
+        setInterval(function box(){
+             a=a+10;
+             if(a<1270){
+            document.getElementById("orange").style.paddingLeft=a;
+            document.getElementById("green").style.paddingRight=a;}
+
+        },50);</script>
     </head>
-    <body>
+    <body id="body">
+        <div id="orange"></div>
         <a href="president.html"><h1>President's of India</h1></a>
+        <div id="green" ></div>
     </body>
 </html>

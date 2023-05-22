@@ -53,6 +53,7 @@ function data(n){
         document.getElementById("p1_image").src='Fakhruddin Ali Ahmed.jpg';
         document.getElementById("birth").innerHTML="Date of Birth:"+" 13 May 1905 ";
         document.getElementById("fam_Q").style.backgroundImage="url('fakh_l.jpg')";
+        document.getElementById("quote").style.color="white";
         document.getElementById("death").innerHTML="Departure from life:"+" 11 February 1977";
         document.getElementById("doa").innerHTML="Date of Appointment:"+" 24 August 1974";
         document.getElementById("polpar").innerHTML="Political party:"+" Indian National Congress";
@@ -67,6 +68,7 @@ function data(n){
         document.getElementById("birth").innerHTML="Date of Birth:"+" 19 May 1913";
         document.getElementById("death").innerHTML="Departure from life:"+" 1 June 1996";
         document.getElementById("doa").innerHTML="Date of Appointment:"+" 25 July 1977";
+        document.getElementById("quote").style.color="white";
         document.getElementById("polpar").innerHTML="Political party:"+" Janata Party";
         document.getElementById("quote").innerHTML="I recalled to him [Morarji Desia] our long association in the freedom movement and after and how I always treated him as an elder brother. I pointed out, however, that in the national interest a distinction had to be maintained between personal relationship and public responsibilities in the discharge of our duties. I referred to the growing disenchantment and disillusionment of our people";
         document.getElementById("journey").innerHTML="Born in present day Anantapur district, Andhra Pradesh, Reddy completed his schooling at Adayar and joined the Government Arts College at Anantapur. He quit to become an Indian independence activist and was jailed for participating in the Quit India Movement. He was elected to the Madras Legislative Assembly in 1946 as a Congress party representative. Reddy became the deputy chief minister of Andhra State in 1953 and the first Chief Minister of Andhra Pradesh in 1956. He was a union cabinet minister under Prime Ministers Lal Bahadur Shastri and Indira Gandhi from 1964 to 1967 and Lok Sabha Speaker from 1967 to 1969. He later retired from active politics but returned in 1975, responding to Jayaprakash Narayan's call for Total Revolution against the Indira Gandhi Government.Elected to Parliament in 1977 as a candidate of the Janata Party, Reddy was unanimously elected Speaker of the Sixth Lok Sabha and three months later was elected unopposed as President of India. As president, Reddy worked with Prime Ministers Morarji Desai, Charan Singh and Indira Gandhi. Reddy was succeeded by Giani Zail Singh in 1982 and he retired to his farm in Anantapur. He died in 1996 and his samadhi is at Kalpally Burial Ground, Bangalore. In 2013, the Government of Andhra Pradesh commemorated Reddy's birth centenary.";
@@ -78,6 +80,7 @@ function data(n){
         document.getElementById("fam_Q").style.backgroundImage="url('giani_l.jpg')";
         document.getElementById("birth").innerHTML="Date of Birth:"+" 5 May 1916";
         document.getElementById("death").innerHTML="Departure from life:"+" 25 December 1994";
+        document.getElementById("quote").style.color="white";
         document.getElementById("doa").innerHTML="Date of Appointment:"+" 25 July 1982";
         document.getElementById("polpar").innerHTML="Political party:"+" Indian National Congress";
         document.getElementById("quote").innerHTML=" A fallen lighthouse is more dangerous than a reef. ";
@@ -88,6 +91,7 @@ function data(n){
         document.getElementById("small_int").innerHTML="He served as the 8th President of India.";
         document.getElementById("p1_image").src='Venkatraman.jpg';
         document.getElementById("fam_Q").style.backgroundImage="url('venka_l.webp')";
+        document.getElementById("quote").style.color="white";
         document.getElementById("birth").innerHTML="Date of Birth:"+" 4 December 1910";
         document.getElementById("death").innerHTML="Departure from life:"+" 27 January 2009";
         document.getElementById("doa").innerHTML="Date of Appointment:"+" 25 July 1987";
@@ -101,6 +105,7 @@ function data(n){
         document.getElementById("p1_image").src='shankar dayal sharma.jpg';
         document.getElementById("birth").innerHTML="Date of Birth:"+" 19 August 1918";
         document.getElementById("death").innerHTML="Departure from life:"+" 26 December 1999";
+        document.getElementById("quote").style.color="white";
         document.getElementById("doa").innerHTML="Date of Appointment:"+" 25 July 1992";
         document.getElementById("fam_Q").style.backgroundImage="url('dayal_l.jpg')";
         document.getElementById("polpar").innerHTML="Political party:"+" Indian National Congress";
@@ -126,6 +131,7 @@ function data(n){
         document.getElementById("fam_Q").style.backgroundImage="url('apj_l.jpg')";
         document.getElementById("birth").innerHTML="Date of Birth:"+" 15 October 1931";
         document.getElementById("death").innerHTML="Departure from life:"+" 27 July 2015";
+        document.getElementById("quote").style.color="white";
         document.getElementById("doa").innerHTML="Date of Appointment:"+" 25 July 2002";
         document.getElementById("polpar").innerHTML="Political party:"+" Independent";
         document.getElementById("quote").innerHTML="Look at the sky. We are not alone. The whole universe is friendly to us and conspires only to give the best to those who dream and work.";
@@ -136,6 +142,7 @@ function data(n){
         document.getElementById("small_int").innerHTML="She served as the 12th President of India.";
         document.getElementById("p1_image").src='pratibha patil.jpg';
         document.getElementById("fam_Q").style.backgroundImage="url('pratibha_l.jpg')";
+        document.getElementById("quote").style.color="white";
         document.getElementById("birth").innerHTML="Date of Birth:"+" 19 December 1934";
         document.getElementById("death").innerHTML="Enjoying a prosperous life.";
         document.getElementById("doa").innerHTML="Date of Appointment:"+" 25 July 2007";
@@ -152,6 +159,7 @@ function data(n){
         document.getElementById("death").innerHTML="Departure from life:"+" 31 August 2020";
         document.getElementById("doa").innerHTML="Date of Appointment:"+" 25 July 2012";
         document.getElementById("polpar").innerHTML="Political party:"+" Indian National Congress";
+        document.getElementById("quote").style.color="white";
         document.getElementById("quote").innerHTML="We are all equal children before our mother, and India asks each one of us, in whatsoever role we play in the complex drama of nation to building, to do our duty with integrity, commitment and unflinching loyalty to the values enshrined in our Constitution.";
         document.getElementById("journey").innerHTML="Mukherjee's father, Kamada Kinkar Mukherjee, was deeply involved in India's struggle for independence from Great Britain in the first half of the 20th century. A longtime member of the Indian National Congress (Congress Party), the elder Mukherjee spent several years in prison as a result of his activities opposing British rule and, after Indian independence, held a seat in the state legislature of West Bengal (1952–64). Pranab was educated at the Suri Vidyasagar College (then affiliated with the University of Calcutta), and he later earned an advanced degree in history and political science as well as a law degree from the university. In 1963 he accepted a teaching position at a small college near Calcutta (now Kolkata) that was associated with the university. He also became editor of a Bengali to language monthly periodical and, later, worked for a weekly publication.Mukherjee first ran for public office in 1969, when he won a seat in the Rajya Sabha (upper house) of the Indian parliament as a member of the Bangla Congress, which soon merged with the Congress Party. He served an additional four terms, although he left that chamber in 2004 and contested and won a seat in the Lok Sabha (lower house). He served there until mid to 2012, when he ran for president of India.";
     }
@@ -162,6 +170,7 @@ function data(n){
         document.getElementById("fam_Q").style.backgroundImage="url('kovind_l.jpg')";
         document.getElementById("birth").innerHTML="Date of Birth:"+" 1 October 1945";
         ocument.getElementById("death").innerHTML="living a prosperous life.";
+        document.getElementById("quote").style.color="white";
         document.getElementById("doa").innerHTML="Date of Appointment:"+" 25 July 2017";
         document.getElementById("polpar").innerHTML="Political party:"+" Bharatiya Janata Party";
         document.getElementById("quote").innerHTML="Nature promotes mutualism. The flower nourishes the bee. The river waters quench the thirst of all living beings. And trees provide a welcoming home to so many birds and animals. There is a rhythm to this togetherness.";
@@ -171,6 +180,7 @@ function data(n){
             document.getElementById("name").innerHTML="Draupadi murmu";
             document.getElementById("small_int").innerHTML="She is serving as the 15th President of India.";
             document.getElementById("p1_image").src='droupadi murmu.jpg';
+            document.getElementById("quote").style.color="white";
             document.getElementById("fam_Q").style.backgroundImage="url('murmu_l.jpg')";
             document.getElementById("birth").innerHTML="Date of Birth:"+" 20 June 1958";
             document.getElementById("doa").innerHTML="Date of Appointment:"+" 25 July 2022";

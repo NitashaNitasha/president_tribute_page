@@ -9,7 +9,7 @@ body{
     height: 40px;width: fit-content;top: 0%;align-items: center;
     padding-left:60px;padding-right:60px;line-height: 45px;text-align: center;transition:1s;
 }
-a{text-decoration: none;color: palegreen;font-size: larger;font-weight: 600;transition: 1s;}
+a{text-decoration: none;color: paleturquoise;font-size: larger;font-weight: 600;transition: 1s;}
 a:hover{color:plum;}
 #pres_list{
     padding-right: auto;
@@ -20,17 +20,18 @@ i{color: white;font-size: large;line-height: 30px;}
     display: flex;flex-direction: column;align-items: center;
 }
 .section{
-    width: 96vw; height:70vh;
+    width: 96vw;height:100vh;font-family:cursive;
 }
-#intro{display: flex;flex-direction: row;margin-left:50px ;justify-content: end;}
-#name{color:rgb(157, 237, 237);font-size: 65px;padding-top: 120px;text-align: center;text-transform: capitalize;transition: 2s;}
-#name:hover{transform: scale(1.2);}
-#small_int{color:blueviolet;font-size:25px;padding-top: 40px;text-align: center;transition: 1s;
+#intro{display: flex;flex-direction: row;justify-content: end;background-image: url('bg1.jpg');background-repeat: no-repeat;background-size: cover;background-attachment: scroll;}
+#name{color:rgb(230, 244, 213);font-size: 65px;padding-top: 120px;
+    text-align: center;text-transform: capitalize;transition: 2s;}
+#name:hover{transform: translateX(10px);}
+#small_int{color:rgb(228, 225, 255);font-size:25px;padding-top: 40px;text-align: center;transition: 1s;
     transition-delay: 0.2s;}
-#small_int:hover{color:rgb(225, 182, 247);}
-
-#p1_image{float: right;height:500px;width:400px;padding:60px;margin-right: 0%;transition: 2s;border-radius: 100px;}
-#p1_image:hover{transform: scale(1.1);}
+#small_int:hover{transform: translateX(10px);}
+#p1_image{float: right;height:500px;width:400px;margin:60px;border:6px rgb(170, 227, 255) ;
+    border-style: dotted;transition: 2s;border-radius: 100px;}
+#p1_image:hover{transform: translateY(-20px);}
 .drop{color:black;visibility: hidden;background-color: rgb(215, 215, 215);
     border-bottom: 0.5px black solid;box-sizing: border-box;height:35px;
     padding-left: 10px;padding-right: 10px;border-radius: 2px;}
@@ -39,34 +40,37 @@ i{color: white;font-size: large;line-height: 30px;}
     padding-left: 10px;padding-right: 10px;border-radius: 2px;}
 #pres_list:hover .drop{visibility: visible;}
 .drop:hover{
-    background-color: darkgrey;
+    background-color: darkgrey;transform: translateX(8px);
 }
 #life{
     margin-top:100px ;color:white;font-size: xx-large;text-align: center;
+    background-image: url('bg2.jpg');background-repeat: no-repeat;background-size: cover;background-attachment: scroll;
 }
 #birth{
     padding: 80px 0px 20px 40px;transition: 1s;
 }
-#birth:hover{color:red;}
+#birth:hover{color:red;transform: translateY(-4px);}
 #death{
     padding: 20px 0px 20px 40px;transition: 1s;
 }
-#death:hover{color:yellow;}
+#death:hover{color:yellow;transform: translateY(-4px);}
 #doa{
     padding: 20px 0px 20px 40px;transition: 1s;
 }
-#doa:hover{color:green;}
+#doa:hover{color:rgb(10, 236, 10);transform: translateY(-4px);}
 #polpar{
     padding: 20px 0px 200px 40px;transition: 1s;
 }
-#polpar:hover{color:blue;}
+#polpar:hover{color:blue;transform: translateY(-4px);}
 #fam_Q{
     margin-top: 200px;background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;text-align: center;line-height: 10vh;
 }
 #journey{
-    color:rgb(255, 195, 125);padding: 10%;font-size: 30px;margin-bottom: 100px;
+    color:rgb(186, 255, 134);padding: 10%;font-size: 30px;margin-bottom: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('bg3.png');background-repeat: no-repeat;background-size: cover;background-attachment: scroll;
 }
 #book img{
     height:300px;width:240px;
@@ -77,17 +81,19 @@ i{color: white;font-size: large;line-height: 30px;}
 .quotation{
     text-align: center;
     font-size: 100px;
-    color: blue;
 }
 #fam_Q i {
-    font-size: xx-large;
+    font-size: 50px;
     margin: auto;
-    color: rgb(12, 103, 20);
+    color: rgb(4, 255, 0);
+    align-items: center;
+    padding-top: 50px;
 }
 h4{
     color: orangered;
    font-size: xx-large;
    transition: 2s;
+   font-family: monospace;
 
 }
-#fam_Q:hover h4{color: blueviolet;text-transform: scale(1.1);}
+#fam_Q:hover h4{text-transform: scale(1.1);}
