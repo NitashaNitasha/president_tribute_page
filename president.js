@@ -183,6 +183,7 @@ function data(n){
             document.getElementById("quote").style.color="white";
             document.getElementById("fam_Q").style.backgroundImage="url('murmu_l.jpg')";
             document.getElementById("birth").innerHTML="Date of Birth:"+" 20 June 1958";
+            document.getElementById("death").innerHTML="Currently serving on the presidency post.";
             document.getElementById("doa").innerHTML="Date of Appointment:"+" 25 July 2022";
             document.getElementById("polpar").innerHTML="Political party:"+" Bharatiya Janata Party";
             document.getElementById("quote").innerHTML="I want to tell the youth to not just focus on their future but also lay the foundation of the country's future. You have my full support";
